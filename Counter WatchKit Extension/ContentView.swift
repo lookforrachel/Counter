@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var counter = 0
+    @AppStorage("count") private var counter = 0
     @State private var showReset = false
     
     var body: some View {
